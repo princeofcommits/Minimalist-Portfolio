@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Prince Deep</div>
+        <ul class="nav-links">
+            <li><a href="#about">about</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Prince Deep</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">about</a></li>
+            <li><a href="#Experience"onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects"onclick="toggleMenu()">projects</a></li>
+            <li><a href="#contact"onclick="toggleMenu()">Contact us</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profilepic.png" alt="profile photo">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Prince</h1>
+            <p class="section__text__p1">Frontend Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/sd.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">Contact info</button>
+        </div>
+        <div class="socials-container">
+            <img src="./assets/linkedin.png" alt="linked in profile" class="icon link" onclick="location.href='https://linkedin.com/'"/>
+            <img src="./assets/git.png" alt="Github profile" class="icon git" onclick="location.href='https://github.com/'"/>
+        </div> 
+    </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">GET TO KNOW MORE</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/experiencesection.png" alt="profilepic">
+            </div>
+            <div class="about-deatails-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/explogo.png" alt="expicon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container"><img src="assets/education.png" alt="education icon" class="icon"> <h3>Education</h3>
+                        <p>B.TECH Bachelors Degree <br>M.TECH Computer Science</b></p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>As a passionate software developer I have a solid foundation in
+                    programming languages such as Java, and JavaScript. I am familiar with
+                    front-end technologies including HTML and CSS, and I have experience
+                    building responsive web interfaces. Additionally, I have worked with
+                    React to create dynamic and interactive user interfaces.</p>
+        </div>
+        </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow" class="arrow" onclick="location.href='#Experience'">
+    </section>
+    <section id="Experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1> 
+        <div class="experience-deatails-container">
+            <div class="about-containers">
+                <div class="deatails-container">
+                    <h2 class="experience-sub-title">Frontend development</h2> 
+                    <div class="article-container">
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>HTML</h2>
+                        <p>Experienced</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>CSS</h2>
+                        <p>Experienced</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>SaaS</h2>
+                        <p>Intermediate</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>JavaScript</h2>
+                        <p>Basic</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>React</h2>
+                        <p>Basic</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>Material UI</h2>
+                        <p>Intermediate</p></div></article>
+                    </div>
+                </div>   
+           
+            <div class="deatails-container">
+                    <h2 class="experience-sub-title">Backend development</h2>
+                    <div class="article-container">
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>Java</h2>
+                        <p>Experienced</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>PostgreSQl</h2>
+                        <p>Experienced</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>Node.js</h2>
+                        <p>Intermediate</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>JavaScript</h2>
+                        <p>Basic</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>Git</h2>
+                        <p>Basic</p></div></article>
+                        <article><img src="assets/checkmark.png" alt="checklogo" id="checkimg" class="icon">
+                        <div><h2>EXpress.js</h2>
+                        <p>Intermediate</p></div></article>
+                </div>
+            </div>      
+        </div>
+      
+        <img src="assets/arrow.png" alt="arrow" class="arrow" onclick="location.href='#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-deatails-container">
+            <div class="about-containers">
+            <div class="deatails-container color-container">
+                <div class="article-container"><img src="assets/project1 (3).jpg" alt="project1" class="project-img "></div>
+            <h2 class="experience-sub-title project-title">Sports Site</h2>
+            <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+        </div>
+    </div>
+    <div class="deatails-container color-container">
+        <div class="article-container"><img src="assets/project1 (2).jpg" alt="project2" class="project-img "></div>
+    <h2 class="experience-sub-title project-title">Music App</h2>
+    <div class="btn-container">
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+</div>
+</div>
+<div class="deatails-container color-container">
+    <div class="article-container"><img src="assets/project.jpg" alt="project3" class="project-img "></div>
+<h2 class="experience-sub-title project-title">Food &    Restaurant Site</h2>
+<div class="btn-container">
+<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+</div>
+</div>
+</div>
+    </div>
+    <img src="assets/arrow.png" alt="arrow" class="arrow" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container"><img src="assets/msgicon.png" alt="msgicon" class="icon contact-icon e"><p><a href="mailto:princejunior7070@gmail.com">princejunior7070@gmail.com</a></p></div> 
+            <div class="contact-info-container"><img src="assets/whatsapp.png" alt="whatsappgicon" class="icon contact-icon"><p><a href="https://www.whatsapp.com">7986940864</a></p>
+        </div></div>
+        <img src="assets/arrow.png" alt="arrow" class="arrow rotate" onclick="location.href='#navbar'">
+    </section>
+    <footer><nav><div class="nav-links-container"> <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul></div></nav><p class="foot">copyright &#169; 2024 PrinceDeep.All Rights Reserved.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html> 
